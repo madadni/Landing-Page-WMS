@@ -80,18 +80,24 @@
   <hr class="border-b border-white opacity-10 my-0 py-0" />
 </nav>
     <!--Hero Section-->
-<div class="pt-24 bg-[#5e5491] text-white">
-  <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center py-8">
+<div class="pt-28 pb-16 bg-[#5e5491] !text-white">
+  <div class="container px-4 mx-auto flex flex-wrap flex-col md:flex-row items-center">
     
     <!--Left Col (Teks & Tombol)-->
-    <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-      <p class="uppercase tracking-widest w-full text-amber-300 font-semibold text-sm">
+    <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left z-10">
+      
+      <!-- Sub-judul Kecil di Atas -->
+      <p class="uppercase tracking-widest w-full !text-amber-300 font-bold text-sm mb-2">
         Pusat Alat Tulis & Perlengkapan Kantor
       </p>
-      <h1 class="my-4 text-4xl lg:text-5xl font-bold leading-tight">
+
+      <!-- Judul Utama (Headline) -->
+      <h1 class="my-3 text-3xl lg:text-5xl font-extrabold leading-tight !text-white">
         Solusi Lengkap ATK Berkualitas untuk Kantor & Sekolah
       </h1>
-      <p class="leading-normal text-lg lg:text-xl mb-8 text-gray-200">
+
+      <!-- Deskripsi / Paragraf -->
+      <p class="leading-relaxed text-base lg:text-lg mb-8 !text-gray-100">
         Lengkapi kebutuhan harian kantor, sekolah, dan usahamu dengan produk ATK terlengkap, harga grosir bersaing, dan pengiriman cepat.
       </p>
 
@@ -99,19 +105,19 @@
       <div class="w-full md:justify-start flex justify-center">
         <a
           href="#katalog"
-          class="mx-auto lg:mx-0 bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold rounded-full py-4 px-8 shadow-lg transform transition hover:scale-105 duration-300 ease-in-out inline-block no-underline"
+          class="bg-amber-500 hover:bg-amber-400 !text-slate-900 font-bold rounded-full py-4 px-8 shadow-xl transform transition hover:scale-105 duration-300 ease-in-out no-underline inline-block"
         >
           Lihat Katalog Produk
         </a>
       </div>
+
     </div>
 
-    <!--Right Col (Gambar Utama / Banner)-->
-    <div class="w-full md:w-3/5 py-6 text-center">
-      <!-- Pastikan path src mengarah ke gambar produk/logo yang sudah kamu upload -->
+    <!--Right Col (Gambar Utama / Logo)-->
+    <div class="w-full md:w-3/5 py-6 text-center z-10">
       <img 
-        class="w-full md:w-4/5 z-50 mx-auto rounded-xl shadow-2xl" 
-        src="statio.jpg" 
+        class="w-full md:w-4/5 mx-auto rounded-2xl shadow-2xl bg-white/10 p-4 backdrop-blur-sm" 
+        src="./assets/logo.png" 
         alt="Hero ATK Wira Madani Sejahtera" 
       />
     </div>
